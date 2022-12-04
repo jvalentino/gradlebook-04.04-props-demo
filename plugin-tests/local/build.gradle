@@ -1,0 +1,10 @@
+buildscript {
+  repositories {
+	jcenter()
+  }
+  dependencies {
+    classpath 'com.blogspot.jvalentino.gradle:props-demo:1.0.0'
+  }
+}
+
+apply plugin: 'props-demo'
